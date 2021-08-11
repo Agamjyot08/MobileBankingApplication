@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Banking</string>
+    <string name="view_transactions"><u>View Transactions</u></string>
+    <string name="mobile_banking">Mobile Banking</string>
+    <string name="dev_name">Agam Jyot Singh</string>
+    <string name="view_customers">View Customers</string>
+</resources>

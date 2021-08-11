@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/paytone_one"
+                android:text="Transaction Successful"
+                android:textColor="#4CAF50"
+                android:textSize="19sp" />
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/imgSuccess"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="success.json"
+                app:lottie_loop="false" />
+
+            <TextView
+                android:id="@+id/amountPaid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgSuccess"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Amount Paid : Rs.10,200" />
+
+            <TextView
+                android:id="@+id/trans_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/amountPaid"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="11.5sp"
+                tools:text="Reference Id : 785fd65d-896dvc-5ff" />
+
+            <TextView
+                android:id="@+id/dateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/trans_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                tools:text="25/12/2020 15:56:25" />
+
+            <TextView
+                android:id="@+id/header_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dateTime"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:text="To :"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/receiver_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dateTime"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@id/header_to"
+                android:textColor="#4607F8"
+                android:textSize="14sp"
+                tools:text="Name Of The Receiver" />
+
+            <TextView
+                android:id="@+id/receiver_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dateTime"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@id/receiver_name"
+                android:textColor="#43C826"
+                android:textSize="14sp"
+                tools:text="+ Rs.10,200" />
+
+            <TextView
+                android:id="@+id/header_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header_to"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="From :"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/sender_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/receiver_name"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/header_from"
+                android:textColor="#4607F8"
+                android:textSize="14sp"
+                tools:text="Name Of The Sender" />
+
+            <TextView
+                android:id="@+id/sender_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/receiver_name"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/sender_name"
+                android:textColor="#FF0E09"
+                android:textSize="14sp"
+                tools:text="- Rs.10,200" />
+
+            <Button
+                android:id="@+id/btn_done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#4607F8"
+                android:text="Done"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
