@@ -40,7 +40,7 @@
             android:layout_height="330dp">
 
             <Button
-                android:id="@+id/btn_view_customers"
+                android:id="@+id/viewCustomersButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -59,7 +59,7 @@
                 android:id="@+id/dev_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/btn_view_customers"
+                android:layout_below="@id/viewCustomersButton"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="50dp"
                 android:text="@string/dev_name"

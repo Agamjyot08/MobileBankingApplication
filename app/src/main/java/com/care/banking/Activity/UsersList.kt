@@ -44,7 +44,7 @@ class UsersList : AppCompatActivity() {
         })
 
 
-        findViewById<CardView>(R.id.back_btn).setOnClickListener {
+        findViewById<CardView>(R.id.backButton).setOnClickListener {
             onBackPressed()
         }
     }

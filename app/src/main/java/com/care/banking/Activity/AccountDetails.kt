@@ -7,13 +7,10 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.cardview.widget.CardView
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.care.banking.Adapter.UserListAdapter
 import com.care.banking.Database.UserDatabase
 import com.care.banking.Database.Users
 import com.care.banking.R
 import com.care.banking.ThreadExecutor
-import org.w3c.dom.Text
 import java.text.DecimalFormat
 
 class AccountDetails : AppCompatActivity() {
@@ -58,7 +55,7 @@ class AccountDetails : AppCompatActivity() {
             }
         })
 
-        findViewById<CardView>(R.id.back_btn).setOnClickListener {
+        findViewById<CardView>(R.id.backButton).setOnClickListener {
             onBackPressed()
         }
 

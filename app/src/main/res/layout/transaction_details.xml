@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="No Transaction Found"
+        android:text="@string/no_transaction_found"
         android:textStyle="bold"
         android:visibility="gone"
         android:id="@+id/noTrans"
@@ -24,7 +24,7 @@
         android:background="#7C4DFF">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/back_btn"
+            android:id="@+id/backButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -34,8 +34,8 @@
 
             <ImageView
                 android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/ic_back_button"/>
+                android:layout_height="34dp"
+                android:src="@drawable/ic_back_button" />
 
         </androidx.cardview.widget.CardView>
 
@@ -61,7 +61,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Transaction Details"
+                android:text="@string/transaction_details"
                 android:layout_marginTop="5dp"
                 android:textColor="@color/white"
                 android:textSize="15sp"/>

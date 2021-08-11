@@ -11,9 +11,6 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import android.widget.*
-import androidx.cardview.widget.CardView
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.care.banking.Adapter.UserListAdapter
 import com.care.banking.Database.Transaction
 import com.care.banking.Database.UserDatabase
 import com.care.banking.Database.Users
@@ -21,8 +18,6 @@ import com.care.banking.R
 import com.care.banking.ThreadExecutor
 import com.github.ybq.android.spinkit.sprite.Sprite
 import com.github.ybq.android.spinkit.style.FadingCircle
-import com.github.ybq.android.spinkit.style.Wave
-import org.w3c.dom.Text
 import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.*
@@ -84,7 +79,7 @@ class TransactionPage : AppCompatActivity() {
         })
 
 
-        findViewById<ImageView>(R.id.back_btn).setOnClickListener {
+        findViewById<ImageView>(R.id.backButton).setOnClickListener {
             onBackPressed()
         }
 

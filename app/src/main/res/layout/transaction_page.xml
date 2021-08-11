@@ -40,7 +40,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/back_btn"
+                android:id="@+id/backButton"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="10dp"
@@ -53,7 +53,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="50dp"
                 android:fontFamily="@font/paytone_one"
-                android:text="Money Transfer"
+                android:text="@string/money_transfer"
                 android:textColor="#7C4DFF"
                 android:textSize="22sp" />
 
@@ -61,7 +61,7 @@
                 android:id="@+id/money"
                 android:layout_width="120dp"
                 android:layout_height="100dp"
-                android:layout_below="@id/back_btn"
+                android:layout_below="@id/backButton"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
                 android:src="@drawable/money" />
@@ -78,7 +78,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Transferring From :"
+                    android:text="@string/transferring_from"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -121,7 +121,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Transferring To :"
+                    android:text="@string/transferring_to"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -170,7 +170,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Available Balance :  "
+                    android:text="@string/available_balance"
                     android:textColor="#00C853"
                     android:textSize="22sp" />
 
@@ -203,7 +203,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Enter the amount you want to transfer :"
+                android:text="@string/desired_amount"
                 android:textColor="#4607F8"
                 android:textSize="20sp" />
 
@@ -213,7 +213,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:ems="10"
-                android:hint="Amount"
+                android:hint="@string/amount"
                 app:errorEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -230,7 +230,7 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:background="#4607F8"
-                android:text="Send"
+                android:text="@string/send"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="20sp" />

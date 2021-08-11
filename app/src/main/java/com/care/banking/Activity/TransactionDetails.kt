@@ -8,10 +8,8 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.care.banking.Adapter.TransactionDetailsAdapter
-import com.care.banking.Adapter.UserListAdapter
 import com.care.banking.Database.Transaction
 import com.care.banking.Database.UserDatabase
-import com.care.banking.Database.Users
 import com.care.banking.R
 import com.care.banking.ThreadExecutor
 
@@ -59,7 +57,7 @@ class TransactionDetails : AppCompatActivity() {
             }
         })
 
-        findViewById<CardView>(R.id.back_btn).setOnClickListener {
+        findViewById<CardView>(R.id.backButton).setOnClickListener {
             onBackPressed()
         }
     }

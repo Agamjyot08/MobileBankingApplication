@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<Button>(R.id.btn_view_customers).setOnClickListener {
+        findViewById<Button>(R.id.viewCustomersButton).setOnClickListener {
             startActivity(Intent(this@MainActivity, UsersList::class.java))
             overridePendingTransition(R.anim.zoom,R.anim.static_animation)
         }

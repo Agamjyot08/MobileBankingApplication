@@ -13,7 +13,7 @@
         android:background="#7C4DFF">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/back_btn"
+            android:id="@+id/backButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"

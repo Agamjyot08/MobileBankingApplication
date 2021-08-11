@@ -4,4 +4,13 @@
     <string name="mobile_banking">Mobile Banking</string>
     <string name="dev_name">Agam Jyot Singh</string>
     <string name="view_customers">View Customers</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="no_transaction_found">No Transaction Found</string>
+    <string name="money_transfer">Money Transfer</string>
+    <string name="transferring_from">Transferring From :</string>
+    <string name="transferring_to">Transferring To :</string>
+    <string name="available_balance">Available Balance :</string>
+    <string name="desired_amount">Enter the amount you want to transfer :</string>
+    <string name="amount">Amount</string>
+    <string name="send">Send</string>
 </resources>

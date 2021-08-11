@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Agam BankingApp/app/src/main/res/layout/account_details.xml" value="0.1" />
+        <entry key="..\:/Agam BankingApp/app/src/main/res/layout/account_details.xml" value="0.3333333333333333" />
         <entry key="..\:/Agam BankingApp/app/src/main/res/layout/activity_main.xml" value="0.14764492753623187" />
+        <entry key="..\:/Agam BankingApp/app/src/main/res/layout/transaction_details.xml" value="0.22" />
+        <entry key="..\:/Agam BankingApp/app/src/main/res/layout/transaction_details_single_item.xml" value="0.14764492753623187" />
+        <entry key="..\:/Agam BankingApp/app/src/main/res/layout/transaction_dialog.xml" value="0.3333333333333333" />
+        <entry key="..\:/Agam BankingApp/app/src/main/res/layout/transaction_page.xml" value="0.22" />
         <entry key="..\:/Banking/app/src/main/res/layout/account_details.xml" value="0.3333333333333333" />
       </map>
     </option>

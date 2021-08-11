@@ -6,9 +6,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.care.banking.Adapter.TransactionDetailsAdapter
 import com.care.banking.Adapter.TrasactionUserAdapter
-import com.care.banking.Adapter.UserListAdapter
 import com.care.banking.Database.UserDatabase
 import com.care.banking.Database.Users
 import com.care.banking.R
@@ -56,7 +54,7 @@ class TransactionUserList : AppCompatActivity() {
             }
         })
 
-        findViewById<CardView>(R.id.back_btn).setOnClickListener {
+        findViewById<CardView>(R.id.backButton).setOnClickListener {
             onBackPressed()
         }
     }
